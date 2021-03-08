@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <style rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <form>
+      <input id="type-city" type="text" placeholder="Type a city..." />
+      <input id="search" type="submit" value="search" />
+      <button>Current Location</button>
+    </form>
+    <h1>ºC</h1>
+    <h2>
+      Hummidity: <span id="hummidity">%</span>
+      <br />
+      Wind: <span id="wind">km/h</span>
+    </h2>
+
+    <script src="script.js"></script>
+  </body>
+</html>
